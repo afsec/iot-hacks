@@ -19,9 +19,11 @@ Espruino - https://www.espruino.com/ (Javascript into ESP32)
 ```
 .
 |-- espruino
-|   |-- test01.js
-|   `-- test02.js
+|   |-- 01-simple-wifi-server.js
+|   `-- 02-webapp-wifi-chat-and-temp.js
+|-- img
+|   `-- geekcreit-esp32-wifibluetooth.png
 `-- README.md
 
-1 directory, 3 files
+2 directories, 4 files
 ```
