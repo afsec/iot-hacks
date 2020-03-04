@@ -5,8 +5,9 @@ Some IoT Hacks
 
 ## Hardware
 
+- Geekcreit-ESP32-WiFibluetooth (ESP32 DEVKITv1)
 
-
+![Geekcreit ESP32 Wifi Bluetooth](/img/geekcreit-esp32-wifibluetooth.png?raw=true)
 
 
 ## Softwares / Firmwares
