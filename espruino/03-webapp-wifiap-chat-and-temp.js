@@ -1,7 +1,9 @@
 E.on('init', function () {
+    var telnetServer = require('TelnetServer');
+    // disable telnet
+    telnetServer.setOptions({"mode":"off"})
     var messages = [];
 
-    //messages.push({ "teste1": "notOk" });
 
     var wifi = require('Wifi');
 
@@ -10,7 +12,7 @@ E.on('init', function () {
 
     function onPageRequest(req, res) {
         var a = url.parse(req.url, true);
-        if (a.pathname == "/") { // a slash at the end, list the directory
+        if (a.pathname == "/") { // Main index
             res.writeHead(200, { 'Content-Type': 'text/html' });
             const temperature = E.getTemperature();
             const celsius_temp = ((temperature - 32) * 5) / 9;
